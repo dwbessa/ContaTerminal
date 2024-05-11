@@ -1,10 +1,7 @@
 import java.util.Scanner;
+
 public class ContaTerminal {
-	public static void main(String[] args) throws Exception {
-		//Conhecer e importar a classe Scanner
-		//Exibir as mensagens para o nosso usuário
-		//Obter pela scanner os valores digitados no terminal
-		//Exibir a mensagem da conta criaa
+	public static void main(String[] args) {
 
 		int		numeroConta;
 		String	agenciaConta;
@@ -26,5 +23,6 @@ public class ContaTerminal {
 		" conta em nosso banco, sua agência é " + agenciaConta + ", conta " +
 		numeroConta + " e seu saldo de R$" + saldoConta + ".00 já está disponível" +
 		" para saque");
+		myScanner.close();
 	}
 }
